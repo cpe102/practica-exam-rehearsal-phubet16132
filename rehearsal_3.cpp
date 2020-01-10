@@ -1,6 +1,15 @@
 #include <iostream>
-
+#include <cmath>
+using namespace std ;
 //Write sumSqrt() here.
+double sumSqrt(double N){
+	double ans = 0;
+	while(N>0){
+		ans=ans+1/pow(N,0.5);
+		N=N-1;
+	}
+	return ans;
+}
 
 
 int main()
