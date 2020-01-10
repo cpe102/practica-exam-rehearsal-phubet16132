@@ -1,7 +1,24 @@
 #include <iostream>
-
+#include <string>
 //Write compress() here.
+using namespace std;
 
+string conpress(string N){
+	  	
+	  	string sum="";
+	  	int count =0 ;
+	  	
+	  	while(count<N.size())
+	  	{
+	  		sum=sum+N[count];
+	  		count=count+3;
+	  		
+		  }
+		
+	  
+		return sum ;
+	}
+	
 int main()
 {
     string a = conpress("ABCDEFGHIJKLMN");
