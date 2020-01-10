@@ -18,7 +18,7 @@ int main() {
 	}
 	else
 	{
-		cout<<"Try harder, "<<n;
+		cout<<"Try harder, "<<n<<"!!!";
 	}
 	
 	return 0 ;
